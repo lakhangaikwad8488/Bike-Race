@@ -1,0 +1,3 @@
+
+testFindBonusPoint=true
+testFindBonusPoint=true
