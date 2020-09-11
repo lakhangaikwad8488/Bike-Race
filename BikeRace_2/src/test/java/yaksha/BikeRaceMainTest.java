@@ -21,5 +21,17 @@ class BikeRaceMainTest {
 		TestUtils.yakshaAssert(TestUtils.currentTest(),b.findBonusPoint(-1).equals("Invalid Input")==true?"true":"false",TestUtils.businessTestFile);
 		
 	}
+	@Test
+	public void testExceptionConditon() throws Exception{
+
+	              TestUtils.yakshaAssert(TestUtils.currentTest(),false,TestUtils.boundaryTestFile);	             
+
+	}	 
+
+	@Test
+	public void testBoundaryCondition() throws Exception {
+
+	              TestUtils.yakshaAssert(TestUtils.currentTest(),false,TestUtils.exceptionTestFile);
+	}
 
 }
